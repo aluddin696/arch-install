@@ -7,7 +7,9 @@ script de instlacion de arch linux de forma sencilla
 # Como descargar el instalador en la ISO
 
 > Método 1:
-loadkeys es && curl -L is.gd/archalu > arch && sh arch
+loadkeys es
+curl -L is.gd/archalu && sh archalu
 
 > Método 2:
-loadkeys es && pacman -Sy wget --noconfirm && wget is.gd/archalu > arch && sh arch
+loadkeys es
+sudo pacman -Sy wget --noconfirm && wget is.gd/archalu && sh archalu
