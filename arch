@@ -19,7 +19,7 @@ sleep 5
 fi
 
 clear
-curl -LJO https://github.com/aluddin696/arch-install
+curl -LJO https://github.com/aluddin696/arch-install/raw/main/arch-master.tar.gz
 tar  -xvf  arch-master.tar.gz
 cd arch-master
 
